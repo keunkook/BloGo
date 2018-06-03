@@ -1,0 +1,74 @@
+/* 카테고리 */
+
+.App .CTWrap {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .App .CTWrap .grid {
+    padding: 30px 0;
+  }
+
+  .App .CTWrap .item {
+    display: inline-block;
+    width:370px;
+    height: 280px;
+    margin: 5px;
+    position: relative;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .App .CTWrap .item:before {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to top, transparent 0%, rgba(0,0,0,0.6) 100%);
+  }
+  
+  .App .CTWrap .item-content {
+    position: absolute;
+    z-index: 2;
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 30px;
+    color: white;
+    box-sizing: border-box;
+  }
+
+  .App .CTWrap .item-content h2 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1;
+    color: white;
+    font-weight:  bold;
+    text-transform: uppercase;
+  }
+  
+  .App .CT-item .category-title {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .App .CTWrap a {
+    text-decoration: none;
+    color: rgb(79, 67, 65);
+  }
+
+  /* @media all and (min-width: 570px) {
+    #CT {
+      margin: 0 4px 4px;
+      height: 150px;
+    }
+  } */

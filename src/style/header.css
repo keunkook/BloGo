@@ -1,0 +1,155 @@
+
+/* 헤더 */
+
+.App .HDWrap {
+    /* border: 1px solid red; */
+    
+    display: table;
+    width: 100%;
+    height: 80px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 99;
+    background-color: white;
+    border-bottom: 1px solid rgb(228, 228, 228);
+  }
+
+  .App .HDWrap .topbar {
+    display: table;
+  }
+  
+  .App .HDWrap .formWrap {
+    width: 300px;
+  }
+  
+  .App .HDWrap .inputWrap {
+    padding: 20.5px;
+    padding-left: 0px;
+    width: 94%;
+  }
+  
+  .App .HDWrap .home {
+    display: inline-block;
+    width: 80px;
+    height: 79px;
+  }
+
+  .App .HDWrap .m-btn-wrap:hover {
+    cursor: pointer;
+  }
+
+  .App .HDWrap .m-btn-container {
+    display: table;
+    height: 75px;
+  }
+  
+  .App .topbar .btn-home {
+    display: table-cell;
+    color: rgb(79, 67, 65);
+    padding: 30px 19.5px 29.5px;
+  }
+  
+  .App .topbar .btn-home:hover {
+    border-bottom: 2px solid #767676;
+  }
+
+  .App .home div > button:focus {  
+    outline: none;
+  }
+
+  .App .HDWrap .m-btn-home {  
+    color: rgb(79, 67, 65);
+    
+    padding: 30px 0 0 17.5px;
+    font-size: 16px;
+    display: table-cell;
+  }
+
+  .App .home .arrow {
+    display: table-cell !important;
+  }
+
+  .App .home .arrow-opt {
+    color: #767676 !important;
+    font-size: 9px !important;
+    margin-left: 8px !important;
+    -webkit-transition: 1s color !important;
+    -moz-transition: 1s color !important;
+    transition: 1s color !important;
+  }
+
+  .App .home .arrow-anim {
+    vertical-align: middle !important;
+    transition-property: -ms-transform, -webkit-transform, transform !important;
+    transition-duration: 250ms !important;
+    transition-timing-function: ease-in-out !important;
+  }
+
+  .App .home svg {
+    height: 1em;
+    width: 1em;
+    display: block;
+    fill: currentColor;
+  }
+  
+  .App .HDWrap li {
+    list-style: none;
+  }
+  
+  .App .HDWrap .form-control {
+    display: table-cell;
+    width: 84%;
+    vertical-align: middle
+  }
+  
+  .App .HDWrap .form-inp {
+    width: calc(100% - 40px);
+    font-size: 0.8em;
+    padding: 10px;
+  
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .App .HDWrap a {
+    color: rgb(79, 67, 65);
+    
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    text-decoration-style: inherit !important;
+    text-decoration-color: inherit !important;
+  }
+
+
+
+
+  @media screen and (max-width: 580px) {
+    .App .HDWrap .formWrap {
+      width: 240px;
+    }
+  }
+
+
+  /* 회원 버튼 */
+    
+.signWrap {
+  width: 180px;
+  display: table;
+}
+
+.topbar .btn-sign {
+  display: table-cell;
+  
+  color: rgb(79, 67, 65);
+  padding: 30.5px 10px;
+  cursor: pointer;
+  font-size: 0.8em;
+  width: 42px;
+}
+
+.topbar .btn-sign:hover {
+  border-bottom: 2px solid #767676;
+}

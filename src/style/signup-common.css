@@ -1,0 +1,279 @@
+  /* 모달 */
+/* 스크롤 안되게함 */
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.ReactModal__Overlay {
+z-index: 100;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+  /* modal up*/
+
+
+  .exit-btn {
+      margin-bottom: 24px;
+  }
+  
+  .modal-close {
+    padding: 0 5px;
+    margin: 0;
+    color: rgb(129, 129, 129);
+    font-size: 22px;
+  }
+  
+  .modal-submit {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    transition-property: background, border-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 700;
+    padding-left: 24px;
+    padding-right: 24px;
+    min-width: 77.6656px;
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    background: rgb(255, 90 , 95);
+    border-color: transparent;
+  }
+
+  /* 폼 필드 속성 */
+
+  .fieldWrap {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 16px;
+    height: 60px;
+    text-align: left;
+  }
+
+  .fieldWrap .sign-group {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(72, 72, 72);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+  }
+
+  .fieldWrap .input-ctn {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+    border-image: initial;
+  }
+
+  .fieldWrap .input-ctn-active {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 132, 137);
+    border-image: initial;
+  }
+
+  .fieldWrap .svg-div {
+    float: right;
+  }
+
+  .fieldWrap .svg-opt {
+    padding-top: 10px;
+    padding-right: 12px;
+  }
+
+  .fieldWrap .form-control {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(72, 72, 72);
+    font-weight: 300;
+    background-color: transparent;
+    width: 90%;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 11px;
+  }
+
+  .fieldWrap .form-control:focus {
+    outline: none;
+  }
+
+  
+  .fieldWrap .text-help {
+    color: rgb(225, 80, 80);
+    margin-bottom: 3px;
+  }
+  
+  .fieldWrap span {
+    font-size: 0.2em;
+  }
+
+
+  /* 섹션 로그인 버튼 */
+
+  .ReactModalPortal .login-btn {
+    cursor: pointer;
+    transition-property: background, border-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right:  24px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    background: rgb(69, 104, 178);
+    border-color: transparent;
+  }
+
+  .ReactModalPortal .login-opt {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: inherit;
+  }
+
+  .ReactModalPortal .login-wrap {
+    margin: 0 auto;
+    display: table;
+  }
+
+  .ReactModalPortal .logo-ctn {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  /* google */
+
+  .ReactModalPortal .google-login {
+    color: rgb(72,72,72);
+    background: white;
+    border-color: rgb(118,118,118);
+  }
+
+
+  /* 구분선 */
+
+  .ReactModalPortal .div-ctn {
+    position: relative;
+    padding: 16px;
+  }
+
+  .ReactModalPortal .div-ctn:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right:100%;
+    width: 5000px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+  }
+
+  .ReactModalPortal .div-opt {
+    font-weight: normal;
+    word-wrap: break-word;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: normal;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: rgb(118, 118, 118);
+    display: inline;
+    margin: 0px;
+  }
+
+  .ReactModalPortal .div-ctn:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 5000px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+  }
+
+  /* 맨 밑 선 */
+
+  .ReactModalPortal .va-container {
+    width: 100%;
+    display: table;
+    position: relative;
+  }
+
+  .ReactModalPortal .va-middle {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+  }
+
+  .ReactModalPortal .foot-msg {
+    word-wrap: break-word;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: rgb(72, 72, 72);
+    font-weight: 300;
+    display: inline;
+    margin: 0px;
+  }
+
+  .ReactModalPortal .foot-login {
+    margin: 0 8px;
+    display: inline-block;
+  }
+
+  .ReactModalPortal .foot-login-opt {
+    font-weight: normal;
+    word-wrap: break-word;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: rgb(72, 72, 72);
+    display: inline;
+    margin: 0px;
+  }
+
+  .ReactModalPortal .foot-login-opt .btn-sign {
+    color: rgb(0, 132, 137);
+    text-align: left;
+    font: inherit inherit inherit inherit inherit inherit inherit inherit inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
